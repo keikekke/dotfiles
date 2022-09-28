@@ -1,0 +1,2 @@
+# dotfiles
+Run `./init.sh`
