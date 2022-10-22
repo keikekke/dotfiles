@@ -40,16 +40,16 @@ set wrapscan
 
 
 "inoremap <silent> jj <esc>
-inoremap <silent> jk <esc>
+"inoremap <silent> jk <esc>
 
-if has('mac')
-    inoremap <A-h> <Left>
-else
-    inoremap <c-h> <Left>
-    inoremap <c-j> <Down>
-    inoremap <c-k> <Up>
-    inoremap <c-l> <Right>
-endif
+"if has('mac')
+"    inoremap <A-h> <Left>
+"else
+"    inoremap <c-h> <Left>
+"    inoremap <c-j> <Down>
+"    inoremap <c-k> <Up>
+"    inoremap <c-l> <Right>
+"endif
 
 inoremap {<cr> {}<left><cr><esc><s-o>
 inoremap (<cr> ()<left><cr><esc><s-o>
