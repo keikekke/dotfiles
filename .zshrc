@@ -134,7 +134,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH=$PATH:$HOME/.local/riscv/bin
-export PATH=$PATH:$HOME/.local/go/bin
+export PATH=$PATH:$HOME/.local/go/bin:$HOME/.cargo/bin
 
 if command -v go &> /dev/null; then
     export PATH="$PATH:$(go env GOPATH)/bin"
